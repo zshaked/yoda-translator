@@ -12,7 +12,7 @@ const YodaTalker = () => {
           await axios.post('https://yodish.p.rapidapi.com/yoda.json',
           {text:message}, 
           {headers: {
-            'X-RapidAPI-Key': '42e586bb78mshc1517a4ab8a0976p1b6533jsn7bf3b50f2466',
+            'X-RapidAPI-Key': 'put your key here',
             'X-RapidAPI-Host': 'yodish.p.rapidapi.com'
             }}
           )
